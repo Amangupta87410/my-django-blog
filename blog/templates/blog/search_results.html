@@ -1,0 +1,24 @@
+{% extends 'blog/base.html' %}
+{% block content %}
+    <h2 class="page-title">Search Results for: "{{ query }}"</h2>
+
+    {% if posts %}
+        {% for post in posts %}
+            <article class="post">
+                {% if post.image %}
+                    <img src="{{ post.image.url }}" alt="{{ post.title }}" class="post-image">
+                {% endif %}
+                <h3><a href="{% url 'post_detail' pk=post.pk %}">{{ post.title }}</a></h3>
+                <p class="post-meta">
+                    Published on: {{ post.published_date }} by {{ post.author.username }}
+                    {% if post.category %}
+                        | Category: <a href="{% url 'category_post_list' category_name=post.category.name %}">{{ post.category.name }}</a>
+                    {% endif %}
+                </p>
+                <p>{{ post.content|truncatewords:30 }}</p>
+            </article>
+        {% endfor %}
+    {% else %}
+        <p>No posts found matching your search criteria.</p>
+    {% endif %}
+{% endblock %}

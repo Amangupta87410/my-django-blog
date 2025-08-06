@@ -23,7 +23,7 @@ Web Server (for local development): Django Development Server
 To run this project on your local machine, follow these steps:
 
 1. Clone the Repository:
-git clone https://github.com/Amangupta87410/myblogsite.git
+git clone https://github.com/Amangupta87410/my-django-blog
 cd myblogsite
 
 

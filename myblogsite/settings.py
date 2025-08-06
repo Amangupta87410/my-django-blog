@@ -92,7 +92,6 @@ WSGI_APPLICATION = 'myblogsite.wsgi.application'
 
 DATABASES = {
     'default': dj_database_url.config(
-        # डिफ़ॉल्ट रूप से SQLite का उपयोग करें यदि DATABASE_URL सेट नहीं है
         default='sqlite:///db.sqlite3',
         conn_max_age=600
     )
@@ -150,19 +149,18 @@ STATICFILES_DIRS = [
 ]
 
 # Media files (User uploaded files)
-# MEDIA_URL = '/media/'
-# MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
+MEDIA_URL = '/media/'
+MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 
 
 STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
 
 
-# Cloudinary Settings
 CLOUDINARY_STORAGE = {
     'CLOUD_NAME':os.environ.get ('dkelpbprr'),
     'API_KEY': os.environ.get ('618319995746179'),
     'API_SECRET': os.environ.get ('<your_api_secret>') ,
 }
 
-# Media files ke liye default file storage set karein
+
 DEFAULT_FILE_STORAGE = 'cloudinary_storage.storage.MediaCloudinaryStorage'

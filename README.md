@@ -17,63 +17,88 @@ New Post Form
 
 ![Image description](https://i.postimg.cc/gkCdGRDq/Screenshot-2025-08-11-134624.png)
 
-Key Features
+
+Key Features:
 User Authentication: Users can sign up, log in, and log out.
+
 
 Post Management (CRUD): Logged-in users can create, read, update, and delete blog posts.
 
+
 Search Functionality: Users can search for specific posts.
+
 
 Comment System: Users can leave comments on blog posts.
 
+
 Image Uploads: Functionality to upload images with posts.
+
 
 Responsive Design: The website layout is optimized for both desktop and mobile devices.
 
-Technologies Used
+
+
+Technologies Used:
+
 Backend: Python, Django
 
 Frontend: HTML, CSS
 
 Database: SQLite 3 (For Development)
 
+
 Local Setup and Installation
 Follow these steps to run this project on your local machine:
 
+
 Clone the Repository:
+
 
 git clone [https://github.com/Amangupta87410/my-django-blog.git](https://github.com/Amangupta87410/my-django-blog.git)
 cd my-django-blog
 
 Create and activate a virtual environment:
 
+
 # For Windows
 python -m venv venv
 venv\Scripts\activate
+
 
 # For macOS/Linux
 python3 -m venv venv
 source venv/bin/activate
 
+
 Install the required dependencies:
+
 
 pip install -r requirements.txt
 
+
 Apply database migrations:
+
 
 python manage.py migrate
 
+
 Create a superuser to access the admin panel:
+
 
 python manage.py createsuperuser
 
+
 Start the development server:
+
 
 python manage.py runserver
 
+
 Your application will now be running at http://127.0.0.1:8000/.
 
-Project Structure
+
+Project Structure:
+
 my-django-blog/
 ├── blog/                 # Main Django app for blog functionality
 ├── media/post_images/    # Directory for user-uploaded images

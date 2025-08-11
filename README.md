@@ -60,3 +60,5 @@ Integrate with a cloud storage service like Cloudinary for media files.
 Deploy the application to a cloud platform like Render.
 
 Add a commenting system for blog posts.
+
+![Image description]([![Screenshot-2025-08-11-132405.png](https://i.postimg.cc/wxykV7hJ/Screenshot-2025-08-11-132405.png)](https://postimg.cc/Hjm5WWvs))

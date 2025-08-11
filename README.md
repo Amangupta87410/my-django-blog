@@ -4,7 +4,7 @@ My Awesome Blog - A Django Blog Project
 Screenshots
 Here are some screenshots of the project:
 
-![Image description](https://postimg.cc/gallery/8DwSBPL)
+![Image description](https://i.postimg.cc/jjjfKGv7/Screenshot-2025-08-11-132405.png)
 
 Homepage
 

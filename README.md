@@ -61,4 +61,4 @@ Deploy the application to a cloud platform like Render.
 
 Add a commenting system for blog posts.
 
-![Image description]([![Screenshot-2025-08-11-132405.png](https://i.postimg.cc/jjjfKGv7/Screenshot-2025-08-11-132405.png)](https://postimg.cc/3kPNFfs8))
+![Image description](https://i.postimg.cc/jjjfKGv7/Screenshot-2025-08-11-132405.png)

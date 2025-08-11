@@ -9,9 +9,13 @@ Homepage
 ![Image description](https://i.postimg.cc/jjjfKGv7/Screenshot-2025-08-11-132405.png)
 
 Blog Post Detail Page
+
 ![Image description](https://i.postimg.cc/mDCgGjx9/Screenshot-2025-08-11-134332.png)
 
+
 New Post Form
+
+![Image description](https://i.postimg.cc/gkCdGRDq/Screenshot-2025-08-11-134624.png)
 
 Key Features
 User Authentication: Users can sign up, log in, and log out.
